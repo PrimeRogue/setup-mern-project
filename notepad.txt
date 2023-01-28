@@ -1,0 +1,24 @@
+1. npm init -y: Tạo file package.json
+2. npm i express
+3. npm i nodemon -D
++ nodemon sẽ tự động chạy lại server khi thay đổi code
+4. Cấu trúc file nodemon ban đầu
+{
+  "name": "chapter-01",
+  "version": "1.0.0",
+  "description": "techNotes MERN Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
